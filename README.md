@@ -1,7 +1,11 @@
 # Conway's Game of Life in Rust
 
+
+
 ## Authors
+
 **Matthew Peterson** (mpeters9@unb.ca)
+
 **Aiden Manuel** (aiden.manuel@unb.ca)
 
 ## What is this Project?
@@ -10,9 +14,8 @@ Written for our Parallel Computing course (CS 3123) at the University of New Bru
 ## What is Conway's Game of Life?
 
 The Game of Life is a zero-player game with simple rules that generate emergent complex behavior. Cells on a grid can be alive or dead, and their fate is determined by their living neighbors:
-
-    A living cell with 2 or 3 living neighbors survives.
-    In all other cases, a cell dies or becomes alive (if it has exactly 3 living neighbors).
+- A living cell with 2 or 3 living neighbors survives.
+- In all other cases, a cell dies or becomes alive (if it has exactly 3 living neighbors).
 
 This simple algorithm can lead to fascinating and unpredictable patterns, making it a captivating exploration of cellular automata.
 
@@ -20,8 +23,8 @@ This simple algorithm can lead to fascinating and unpredictable patterns, making
 
 ## Prerequisites:
 
-    Rust compiler (https://doc.rust-lang.org/)
-    Cargo package manager (usually comes bundled with Rust)
+- Rust compiler (https://doc.rust-lang.org/)
+- Cargo package manager (usually comes bundled with Rust)
 
 ## To running the Simulation:
 
