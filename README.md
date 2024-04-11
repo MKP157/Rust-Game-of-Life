@@ -30,7 +30,7 @@ This simple algorithm can lead to fascinating and unpredictable patterns, making
 
 ## Changing resolution and scale
 
-If you're looking for a little more of a challenging simulation to put your computer through the races than the source code here currently provides, go ahead and change the values for resolution and pixel scale. They are defined as the constants 'WIDTH', 'HEIGHT', and 'SCALE'. Note that too large of a resolution will crash the program, as Rust cannot allocate enough memory.
+If you're looking for a little more of a challenging simulation to put your computer through the races than the source code here currently provides, go ahead and change the values for resolution and pixel scale. They are defined as the constants `WIDTH`, `HEIGHT`, and `SCALE`. Note that too large of a resolution will crash the program, as Rust cannot allocate enough memory.
 
 ## To run the simulation:
 
