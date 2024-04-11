@@ -44,8 +44,8 @@ use std::time::{Instant};
 
 // Window dimensions (in pixels), as well as
 // visible scale-factor and other metrics.
-const HEIGHT: usize = 480;
-const WIDTH: usize = 640;
+const HEIGHT: usize = 1080;
+const WIDTH: usize = 1920;
 const SCALE: usize = 4;
 const ROWS: usize = HEIGHT / SCALE;
 const COLS: usize = WIDTH / SCALE;
@@ -181,7 +181,7 @@ impl App {
 
                     // Based on current state, change to new state!
                     if previous_state[i] {
-                        if (neighbour < 2 || neighbour > 3) {
+                        if neighbour < 2 || neighbour > 3 {
                             *pixel = !previous_state[i];
                         }
                     } else if neighbour == 3 {
@@ -298,8 +298,6 @@ fn main() {
 
         if let Some(args) = e.render_args() {
             app.render(&args);
-            std::thread::sleep(std::time::Duration::new(1, 0));
-
 
             //frame += 1;
             //if frame == 50 {
