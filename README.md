@@ -9,7 +9,7 @@
 **Aiden Manuel** (aiden.manuel@unb.ca)
 
 ## What is this Project?
-Written for our Parallel Computing course (CS 3123) at the University of New Brunswick, Saint John, this program is implementation of John Conway's "Game of Life" cellular automata simulation in Rust. It uses the [Rayon](https://docs.rs/rayon) Crate for parallizing the process of updating each frame of the simulation, and [Piston](https://github.com/PistonDevelopers/piston) for implementing a simple graphical interface on top of OpenGL to provide the user with a visual of the simulation as it runs.
+Written for our Parallel Computing course (CS 3123 at the University of New Brunswick, Saint John), this program is an implementation of John Conway's "Game of Life" cellular automata simulation in Rust. It uses the [Rayon](https://docs.rs/rayon) Crate for parallizing the process of updating each frame of the simulation, and [Piston](https://github.com/PistonDevelopers/piston) for implementing a simple graphical interface on top of OpenGL to provide the user with a visual of the simulation as it runs.
 
 ## What is Conway's Game of Life?
 
