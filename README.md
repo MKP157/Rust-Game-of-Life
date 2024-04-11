@@ -29,12 +29,15 @@ This simple algorithm can lead to fascinating and unpredictable patterns, making
 ## To run the simulation:
 
 1. Clone this repository:
+
 ```git clone https://github.com/MKP157/Rust-Game-of-Life```
 
 2. Navigate to the project directory:
+
 ```cd conway-game-of-life```
 
 3. Build and run the simulation with Rust. Replace `<threads>` with the numberof software threads you wish to allocate to Rayon.
+
 ```cargo run <threads>```
 
 This will launch a window with a grid where you can click to toggle cells alive or dead. Press `Space` to pause/unpause the simulation and, `C` to clear the simulation grid, and `R` to randomly initialize the grid.
