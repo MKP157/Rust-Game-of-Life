@@ -26,7 +26,7 @@ This simple algorithm can lead to fascinating and unpredictable patterns, making
 - Rust compiler (https://doc.rust-lang.org/)
 - Cargo package manager (usually comes bundled with Rust)
 
-## To running the Simulation:
+## To run the simulation:
 
 1. Clone this repository:
 ```git clone https://github.com/MKP157/Rust-Game-of-Life```
