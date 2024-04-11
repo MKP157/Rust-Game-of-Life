@@ -1,0 +1,24 @@
+[package]
+
+name = "game-of-life"
+version = "0.1.0"
+authors = [
+    "TyOverby <ty@pre-alpha.com>",
+    "Nikita Pekin <contact@nikitapek.in>",
+    "Aiden Manuel <amanuel3@unb.ca>",
+    "Matthew Peterson <mpeters9@unb.ca>"
+]
+
+[[bin]]
+name = "game-of-life"
+
+[dependencies]
+piston = "0.55.0"
+piston2d-graphics = "0.44.0"
+pistoncore-glutin_window = "0.72.0"
+piston2d-opengl_graphics = "0.84.0"
+rand = "0.8.5"
+chrono = "0.4.37"
+rayon = "1.10.0"
+image = "0.24.9"
+conv = "0.3.3"
