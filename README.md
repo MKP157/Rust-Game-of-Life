@@ -1,6 +1,6 @@
 # Conway's Game of Life in Rust
 
-
+![alt text](https://github.com/MKP157/Rust-Game-of-Life/blob/main/demo.gif)
 
 ## Authors
 
